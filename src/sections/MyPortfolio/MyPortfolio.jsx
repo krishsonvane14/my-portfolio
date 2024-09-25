@@ -24,7 +24,7 @@ export default function MyPortfolio() {
       title: "This Website!",
       description:
         "A responsive React Portfolio Website with a light & dark mode showcasing my projects and links to my socials!",
-      link: "https://github.com/krishsonvane14/portfolio-website",
+      link: "https://github.com/krishsonvane14/my-portfolio",
     },
   ];
 
