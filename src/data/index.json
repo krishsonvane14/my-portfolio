@@ -1,0 +1,26 @@
+
+{
+    "portfolio": [
+     {
+       "id": "1",
+       "src": "/src/assets/gymbro.png",
+       "title": "GymBro",
+       "description": "GymBro is a personal project designed to enhance fitness tracking by generating personalized workout plans based on user preferences.",
+       "link": "View In Github"
+     },
+     {
+       "id": "2",
+       "src": "/src/assets/piggypro.png",
+       "title": "PiggyPro",
+       "description": "PiggyPro allows users to input their income, expenses, and budgets, and receive personalized financial advice based on their financial data.",
+       "link": "View In Github"
+     },
+     {
+       "id": "3",
+       "src": "/src/assets/portfolioWebsite.png",
+       "title": "This Website!",
+       "description": "A responsive React Portfolio Website with a light & dark mode showcasing my projects and links to my socials!",
+       "link": "View In Github"
+     }
+   ]
+ }

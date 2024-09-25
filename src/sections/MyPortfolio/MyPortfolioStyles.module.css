@@ -1,0 +1,150 @@
+
+.portfolioTitleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;  
+    width: 100%;  
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .portfolioTitleContainer h2,
+  .portfolioTitleContainer h3 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  
+  .portfolioTitleContainer h2 {
+    margin-bottom: 10px; 
+  }
+  
+  .portfolioSectionContainer {
+    display: flex;
+    justify-content: center; 
+    margin-top: 5px;
+    gap: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+  }
+  
+  .portfolioSectionCard {
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.2s ease-in-out;
+    min-height: 450px; 
+  }
+  
+  .portfolioSectionCard:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .portfolioSectionImg {
+    width: 100%;
+    height: 180px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .portfolioSectionImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+
+  .portfolioSectionCardContent {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    flex-grow: 1; 
+  }
+  
+  .portfolioSectionTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #080808;
+    margin-bottom: 8px;
+  }
+  
+  .projectDescription {
+    font-size: 1rem;
+    color: #000000;
+    max-width: 30ch;
+    flex-grow: 1; 
+  }
+  
+  .portfolioLink {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #5b3cc4; 
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+    margin-top: auto; 
+  }
+  
+  .portfolioLink svg {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolioLink:hover {
+    color: #6f42c1; 
+  }
+  
+  .portfolioLink:hover svg {
+    transform: translateX(4px); 
+  }
+  
+
+  .portfolioLink:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+    
+
+@media (max-width: 768px) {
+
+    .portfolioTitleContainer h2,
+    .portfolioTitleContainer h3 {
+      font-size: 1.5rem;  
+    }
+
+    .portfolioSectionContainer {
+      flex-direction: column;  
+      align-items: center;     
+      gap: 20px;               
+    }
+  
+    .portfolioSectionCard {
+      width: 90%;              
+      max-width: 100%;         
+      margin-bottom: 40px;
+    }
+  
+    .portfolioSectionCardContent {
+      padding: 15px;          
+    }
+  }
+  
