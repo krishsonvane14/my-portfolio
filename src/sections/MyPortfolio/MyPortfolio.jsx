@@ -1,4 +1,8 @@
 import styles from './MyPortfolioStyles.module.css';
+import gymbroImage from '/src/assets/gymbro.svg';
+import piggyproImage from '/src/assets/piggypro.svg';
+import portfolioWebsiteImage from '/src/assets/portfolioWebsite.svg';
+
 
 export default function MyPortfolio() {
   return (
@@ -12,7 +16,7 @@ export default function MyPortfolio() {
       <div className={styles.portfolioSectionContainer}>
         <div className={styles.portfolioSectionCard}>
           <div className={styles.portfolioSectionImg}>
-            <img src='/src/assets/gymbro.svg' alt="GymBro" />
+            <img src={gymbroImage} alt="GymBro" />
           </div>
           <div className={styles.portfolioSectionCardContent}>
             <h3 className={styles.portfolioSectionTitle}>GymBro</h3>
@@ -47,7 +51,7 @@ export default function MyPortfolio() {
 
         <div className={styles.portfolioSectionCard}>
           <div className={styles.portfolioSectionImg}>
-            <img src='/src/assets/piggypro.svg' alt="PiggyPro" />
+            <img src={piggyproImage} alt="PiggyPro" />
           </div>
           <div className={styles.portfolioSectionCardContent}>
             <h3 className={styles.portfolioSectionTitle}>PiggyPro</h3>
@@ -82,7 +86,7 @@ export default function MyPortfolio() {
 
         <div className={styles.portfolioSectionCard}>
           <div className={styles.portfolioSectionImg}>
-            <img src='/src/assets/portfolioWebsite.svg' alt="This Website!" />
+            <img src={portfolioWebsiteImage} alt="This Website!" />
           </div>
           <div className={styles.portfolioSectionCardContent}>
             <h3 className={styles.portfolioSectionTitle}>This Website!</h3>
